@@ -53,6 +53,8 @@ module.exports = {
     },
     devServer: {
         contentBase: path.resolve(__dirname, "dist"),
+        inline:true,
+        port: 8081
     },
     // 启用sourceMap
     devtool: "source-map",
